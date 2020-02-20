@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+html{
+    font-family: 'Saira Semi Condensed',sans-serif;
+}
+
+table,th,td{
+    border:1px solid rgb(99, 99, 99);
+    border-collapse: collapse;
+}
+th,td{
+    padding:10px;
+}
+tbody tr:nth-child(odd){
+    background:rgb(209, 209, 209);
+}
+.red{
+    color:red;
+}
+
+.transparentRed{
+    color:rgba(255,0,0,.5)
+}
+
+.green{
+    color:green
+}
+
+.italicized{
+    font-style: italic;
+}
